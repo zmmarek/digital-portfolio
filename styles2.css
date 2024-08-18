@@ -125,7 +125,7 @@ footer a:hover {
     background-size: cover;
     content: "";
     display: block;
-    height: 500px;
+    height: 25vw;
 }
 
 .download-link {
