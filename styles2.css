@@ -70,6 +70,32 @@ footer a:hover {
     text-decoration: none;
 }
 
+div.scroll-container {
+    background-color: #ffffff;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+div.image-container {
+    display: inline-block;
+    /* Keeps the divs in a horizontal line */
+     text-align: center;
+    /* Centers the text under the image */
+     margin-right: 10px;
+    /* Adds some spacing between images */
+}
+
+img {
+    width: auto;
+    height: auto;
+}
+
+.description {
+    margin-top: 8px;
+    /* Adds some space between the image and the description */
+}
+
 .btn {
     background: #3c8453;
     color: #f6f6f6;
